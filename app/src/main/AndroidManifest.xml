@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Assessment1">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.details.CafeDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Assessment1" />
+        <activity
+            android:name=".ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
